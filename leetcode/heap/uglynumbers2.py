@@ -44,7 +44,6 @@ class Solution:
         p = 1
 
         for _ in range(n - 1):
-            print(nums)
             p = heappop(nums)
 
             for prime_factor in prime_factors:
