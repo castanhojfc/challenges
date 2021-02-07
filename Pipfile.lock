@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ae69a964208e2dc5b6d5038ade3d6da1eaa966a6f0ba07e3ddb908cfeb87a658"
+            "sha256": "6363c6836d0de64ced9d9d8f53883b08a7f96818686b87ac84fb61eb92ab2573"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "llist": {
+            "hashes": [
+                "sha256:7f34966c98dcdfcc6e1fef1edcf538a3d23810ba1b39a145330ea26b3eb2961c"
+            ],
+            "index": "pypi",
+            "version": "==0.6"
+        },
         "mccabe": {
             "hashes": [
                 "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42",
@@ -57,10 +64,10 @@
         },
         "snowballstemmer": {
             "hashes": [
-                "sha256:209f257d7533fdb3cb73bdbd24f436239ca3b2fa67d56f6ff88e86be08cc5ef0",
-                "sha256:df3bac3df4c2c01363f3dd2cfa78cce2840a79b9f1c2d2de9ce8d31683992f52"
+                "sha256:b51b447bea85f9968c13b650126a888aabd4cb4463fca868ec596826325dedc2",
+                "sha256:e997baa4f2e9139951b6f4c631bad912dfd3c792467e2f03d7239464af90e914"
             ],
-            "version": "==2.0.0"
+            "version": "==2.1.0"
         },
         "yapf": {
             "hashes": [

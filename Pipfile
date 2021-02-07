@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pylama = "*"
 yapf = "*"
+llist = "*"
 
 [dev-packages]
 
