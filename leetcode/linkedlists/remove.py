@@ -18,6 +18,8 @@ Space: O(1)
 https://leetcode.com/problems/remove-linked-list-elements/
 """
 
+from commons import printLinkedList
+
 
 class ListNode:
     def __init__(self, x):
@@ -26,15 +28,6 @@ class ListNode:
 
 
 class Solution:
-    def print(self, node) -> None:
-        temp = node
-
-        while (temp):
-            print(temp.val, end="->")
-            temp = temp.next
-
-        print()
-
     def removeElements(self, head: ListNode, val: int) -> ListNode:
         if not head:
             return None
@@ -67,4 +60,4 @@ if __name__ == '__main__':
     node4.next = node5
 
     head = solution.removeElements(node1, 1)
-    solution.print(head)
+    printLinkedList(head)
