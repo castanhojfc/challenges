@@ -15,11 +15,7 @@ Space: O(1)
 https://leetcode.com/problems/linked-list-cycle/
 """
 
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from commons import ListNode
 
 
 class Solution:
@@ -37,8 +33,6 @@ class Solution:
 
 
 if __name__ == '__main__':
-    solution = Solution()
-
     solution = Solution()
 
     node1 = ListNode(1)

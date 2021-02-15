@@ -11,11 +11,7 @@ Time: O(1)
 Space: O(1)
 """
 
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from commons import ListNode
 
 
 class Solution:

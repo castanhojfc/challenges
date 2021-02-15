@@ -18,13 +18,7 @@ Space: O(1)
 https://leetcode.com/problems/remove-linked-list-elements/
 """
 
-from commons import printLinkedList
-
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from commons import ListNode, printLinkedList
 
 
 class Solution:

@@ -27,21 +27,15 @@ Spcae: O(1)
 https://leetcode.com/problems/reverse-linked-list-ii/
 """
 
-from commons import printLinkedList
+from commons import ListNode, printLinkedList
 
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
 
 class Solution:
-
     def reverse(self, head):
         prev = None
         curr = head
 
-        while(curr):
+        while (curr):
             next = curr.next
             curr.next = prev
             prev = curr
@@ -61,14 +55,14 @@ class Solution:
         i = 1
         curr = head
 
-        while(curr and i <= n):
-            if(i < m):
+        while (curr and i <= n):
+            if (i < m):
                 previous_node = curr
 
-            if(i == m):
+            if (i == m):
                 start_reverse_node = curr
 
-            if(i == n):
+            if (i == n):
                 end_reserve_node = curr
                 next_node = curr.next
 
@@ -79,7 +73,7 @@ class Solution:
 
         end_reserve_node = self.reverse(start_reverse_node)
 
-        if(previous_node):
+        if (previous_node):
             previous_node.next = end_reserve_node
         else:
             head = end_reserve_node
@@ -87,6 +81,7 @@ class Solution:
         start_reverse_node.next = next_node
 
         return head
+
 
 if __name__ == '__main__':
     solution = Solution()
