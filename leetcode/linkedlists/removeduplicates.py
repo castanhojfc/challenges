@@ -1,13 +1,19 @@
 """
 Problem:
+Remove duplicate nodes from a sorted Linked List.
 
 Solution:
+Create an extra pointer to traverse.
+Perform a loop, when a value is equal to the next, remove this node.
 
 Runtimes:
+Time: O(n)
+Space: O(1)
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 """
 from commons import ListNode, printLinkedList
+
 
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
@@ -23,6 +29,7 @@ class Solution:
                 p = p.next
 
         return head
+
 
 if __name__ == '__main__':
     solution = Solution()
