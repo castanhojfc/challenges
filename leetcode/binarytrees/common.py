@@ -2,11 +2,12 @@ class TreeNode:
     """
     Definition for a binary tree node.
     """
-    def __init__(self, val=0, left=None, right=None):
+    def __init__(self, val=None, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
+# TODO: Check this method, it may not be producting the correct results.
 def buildTree(array, root=None, i=0):
     n = len(array)
 
