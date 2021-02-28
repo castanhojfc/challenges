@@ -9,7 +9,7 @@ If both p and q are higher, pick the right node.
 This can be done recursively.
 
 Runtimes:
-Time: O(n)
+Time: O(log n) time complexity for a balanced tree, as we need to travel from root to a leaf. O(n) in the worst case for a left/right deep tree)
 Space: O(1)
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
